@@ -1,0 +1,15 @@
+{
+  "name": "electron-react-from-scratch",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "author": "Ben Zittlau <ben@zittlau.ca>",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^3.0.10",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {}
+}
