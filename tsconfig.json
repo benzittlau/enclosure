@@ -9,7 +9,11 @@
     "removeComments": false,
     "noImplicitAny": false,
     "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
     "outDir": "./dist",
   },
-  "exclude": [ "node_modules" ] 
+  "exclude": [ 
+    "node_modules" ,
+    "linter_check_files.ts"
+  ] 
 }
